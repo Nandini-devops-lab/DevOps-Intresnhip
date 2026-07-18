@@ -6,6 +6,7 @@ Ans:Operating system is a bridge between the physical machine and the Applicatio
     Kubernetes, dockers and public cloud (AS, GCP, Azure) are runs on the Linux operating system.
     We can use the Linux machines over the year without any reboot it required.
 
+
 2.Explain the difference between the Linux Kernel and the Shell with suitable examples.
 
 Ans:Kernel: Kernel is nothing but an operating system, it is a core of the os. It delas with the physical hardware and the system resources like CPU, Memory etc..
@@ -19,6 +20,8 @@ Ans:1. Create a directory named CareerByteCode:  mkdir CareerByteCode
     3. Display all files with detailed information: lshrt or ll
     4. Rename one file: mv file1 nandu
     5. Remove one file: rm file2
+## Praactical output:
+"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 171306.png"
 
 4.Explain the purpose of the following Linux commands with one example each:
 
@@ -35,7 +38,8 @@ Ans:1.mkdir: This Linux command is used to create the new directory.
        The above command will create new file named nandini
 
     4.cp: this Linux commad is ued to copy the file from one location to other
-        eg: cp 
+        eg: cp nandu /etc/nandini
+            The above linux command will cpoy the file named nandu to the folder nandini
 
     5.mv: This Linux command is used to move the file from one path to other and this command also used to rename the file too.
           eg: mv nandu /etc/documents/nandini----- This command moves the file nanu to the folder nandini
@@ -49,6 +53,9 @@ Ans: 1. Display the current date and time: date
      3.Print the current working directory: pwd
      4.Create a directory named backup: mkdir backup
      5.Move a file into the backup directory: mv nandu /backup/
+
+## practical output:
+"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 172038.png"
 
 6.Research any three Linux commands that help you work with files and directories. Explain their purpose with examples.
 
@@ -85,11 +92,17 @@ Ans: Read: Has only the view permission for the respective file
 9.Suppose you cannot access a directory because of permission issues. Which Linux commands would you use to identify and resolve the problem?
 
 Ans:"chmod" is the Linux command used to edit the permissions of the respective file. We can give the required the permissions to the file and can access it.
+## Practical output:
+"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 172243.png"
+
+In the above ss the file permission of file nandiniis changed from read (r), write(w) to exeecute(x)
 
 10.Your terminal screen contains a long list of previously executed commands. Which command would you use to view them? How can this help during troubleshooting
 
-Ans:  "less" command is used to print the content of the file which best fit to the current screen length 
-       And we mostly use this command during the troubleshooting process to view the content of the file in the current screen length and we can use down arrow button on the keyboard to display the content further till the end.
+Ans:  "History" command is used to view the list of commands executed previously. It helps in troubleshooting process 
+       1.To view what command the previous users executed and what changes they made
+       2.We can copy the same command and can run to make sure there are no mistakes in the command while executing it
+       3.It's make the execution process easy
 
 11.What is a Git Repository? Explain the difference between a Local Repository and a Remote Repository.
 
@@ -124,5 +137,69 @@ Ans:Repository----Digital psace to store the code/data in files/folders
 Ans:  We use to create a separate branch and used to edit the files and finally push in to the main branch because
       It allows multiple users can work on the same repository/project simultaneausly
       Rescue the code in mail project from accidental pushes
+
+16. Write a Bash shell script that accepts a student's Name, Age, and City as input and displays the entered details.
+Ans:  read -p "Enter Name: " name
+      read -p "Enter age: " age
+      read -p "Enter City: " City
+
+      echo "Name: $name"
+      echo "Age: $age"
+      echo "City: $City"
+
+## Practical output:
+"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 174033.png"
+
+
+17. Write a Bash shell script to find the largest of two numbers entered by the user.
+Ans:   read -p "Enter first number: " a
+       read -p "Enter second number: " b
+       if [$a -gt $b]
+       then
+          echo "a is the biggest number and a is: $a"
+       else
+          echo "b is the bugest number and b is : $b"
+       fi
+
+##Practical output:
+"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 174546.png"
+
+
+
+18.Write a Bash shell script using a while loop to display numbers from 1 to 10.
+Ans:  
+
+i=1
+
+while ($i -le 10)
+do
+  echo "$i"
+  $i+1
+done
+
+##Practical output:
+"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 175343.png"
+
+
+19. Research any two GitHub features that were not discussed during the training. Explain how they are useful for developers.
+Ans:  Git HUb is a powershell collaboration and autmation tool than just a version control tool
+      
+     1.We can set up continuous integration (run tests automatically when code is pushed) or continuous deployment (deploy apps to servers or cloud services).
+
+      Eg: Automatically run unit tests every time someone opens a pull request.
+
+      2.It Provides metrics and reports about repository activity.
+        We can track contributions, issues, pull requests, and code frequency
+
+20. Q20.
+Create a GitHub repository named week1-linux-practice and upload:
+
+A README.md file
+Linux command practice
+Two Bash shell scripts
+At least 5 Git commits
+Screenshots of your command execution
+
+Ans:
 
 
