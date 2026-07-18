@@ -20,8 +20,7 @@ Ans:1. Create a directory named CareerByteCode:  mkdir CareerByteCode
     3. Display all files with detailed information: lshrt or ll
     4. Rename one file: mv file1 nandu
     5. Remove one file: rm file2
-## Praactical output:
-C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 171306.png
+
 
 4.Explain the purpose of the following Linux commands with one example each:
 
@@ -54,8 +53,7 @@ Ans: 1. Display the current date and time: date
      4.Create a directory named backup: mkdir backup
      5.Move a file into the backup directory: mv nandu /backup/
 
-## practical output:
-"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 172038.png"
+
 
 6.Research any three Linux commands that help you work with files and directories. Explain their purpose with examples.
 
@@ -92,8 +90,7 @@ Ans: Read: Has only the view permission for the respective file
 9.Suppose you cannot access a directory because of permission issues. Which Linux commands would you use to identify and resolve the problem?
 
 Ans:"chmod" is the Linux command used to edit the permissions of the respective file. We can give the required the permissions to the file and can access it.
-## Practical output:
-"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 172243.png"
+
 
 In the above ss the file permission of file nandiniis changed from read (r), write(w) to exeecute(x)
 
@@ -147,8 +144,7 @@ Ans:  read -p "Enter Name: " name
       echo "Age: $age"
       echo "City: $City"
 
-## Practical output:
-"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 174033.png"
+
 
 
 17. Write a Bash shell script to find the largest of two numbers entered by the user.
@@ -161,8 +157,8 @@ Ans:   read -p "Enter first number: " a
           echo "b is the bugest number and b is : $b"
        fi
 
-##Practical output:
-"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 174546.png"
+
+
 
 
 
@@ -177,8 +173,7 @@ do
   $i+1
 done
 
-##Practical output:
-"C:\Users\NANDU SIVA\OneDrive\Pictures\Screenshots\Screenshot 2026-07-18 175343.png"
+
 
 
 19. Research any two GitHub features that were not discussed during the training. Explain how they are useful for developers.
@@ -191,15 +186,6 @@ Ans:  Git HUb is a powershell collaboration and autmation tool than just a versi
       2.It Provides metrics and reports about repository activity.
         We can track contributions, issues, pull requests, and code frequency
 
-20. Q20.
-Create a GitHub repository named week1-linux-practice and upload:
 
-A README.md file
-Linux command practice
-Two Bash shell scripts
-At least 5 Git commits
-Screenshots of your command execution
-
-Ans:
 
 
