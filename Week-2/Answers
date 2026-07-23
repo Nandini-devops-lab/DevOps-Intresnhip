@@ -50,7 +50,7 @@ Run an interactive Ubuntu container----- Docker run -d --name <container name> <
 Display all containers (running and stopped)----- Docker ps 
 Remove all stopped containers------ Docker rm <container name>  eg: docker rm web1 
 
-![Practical Output:](screenshots/Screenshot_2026-07-23 _193842.png)
+![Practical Output:](Week-2/screenshots/Screenshot_2026-07-23 _193842.png)
 Q:  Explain the difference between the COPY and ADD instructions in a Dockerfile.
 
 Ans;
